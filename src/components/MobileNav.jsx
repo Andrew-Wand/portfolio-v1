@@ -13,8 +13,8 @@ function MobileNav() {
         id="mobileNav"
         className={
           !isOpen
-            ? "text-center h-[0px] overflow-hidden transition-[height] ease duration-[400ms]"
-            : "text-center h-[300px] overflow-hidden transition-[height] ease duration-[400ms]"
+            ? "text-center h-[0px] overflow-hidden transition-[height] ease duration-[400ms] lg:hidden"
+            : "text-center h-[300px] overflow-hidden transition-[height] ease duration-[400ms] lg:hidden"
         }
       >
         <div id="mobileNavWrapper" className="border-b-2 border-solid ">
@@ -49,7 +49,7 @@ function MobileNav() {
           </nav>
         </div>
       </div>
-      <div className="mobileMenuLink text-center">
+      <div className="mobileMenuLink text-center lg:hidden">
         <a className="text-xl cursor-default" onClick={openMobileMenu}>
           Menu
         </a>
