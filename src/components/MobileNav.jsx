@@ -19,7 +19,7 @@ function MobileNav() {
       >
         <div id="mobileNavWrapper" className="border-b-2 border-solid ">
           <nav className="mobileNav">
-            <ul>
+            <ul className="">
               <li className="mb-6">
                 <a className="text-xl" href="">
                   Home
