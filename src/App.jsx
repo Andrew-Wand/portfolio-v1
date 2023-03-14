@@ -9,10 +9,9 @@ function App() {
       <NavBar />
       <MobileNav />
 
-      <div>
-        <WelcomeSection />
-        <AboutSection />
-      </div>
+      <WelcomeSection />
+      <div className="angle angle2"></div>
+      <AboutSection />
     </div>
   );
 }
