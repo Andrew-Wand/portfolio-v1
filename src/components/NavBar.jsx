@@ -3,7 +3,7 @@ import React from "react";
 function NavBar() {
   return (
     <div className="hidden lg:block">
-      <div className="navbar-wrapper navbar justify-end bg-base-200 h-20">
+      <div className="navbar-wrapper navbar justify-end bg-base-200 h-20 fixed ">
         <nav>
           <ul className="flex">
             <li className="mr-10">
