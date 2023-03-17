@@ -1,4 +1,4 @@
-import React from "react";
+import NameAnim from "./animations/NameAnim";
 
 function NavBar() {
   return (

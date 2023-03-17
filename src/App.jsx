@@ -14,7 +14,7 @@ function App() {
 
       <WelcomeSection />
       <div className="angle angle2 drop-shadow-md">
-        <div className="absolute z-10 left-[40%]">Scroll Down</div>
+        {/* <div className="absolute z-10 left-[40%]">Scroll Down</div> */}
       </div>
       <AboutSection />
       <SkillsSection />

@@ -14,8 +14,8 @@ function MobileNav() {
         id="mobileNav"
         className={
           !isOpen
-            ? "text-center h-16 overflow-hidden transition-[height] ease duration-[400ms] lg:hidden fixed bg-cyan-700 w-full z-10"
-            : "text-center h-screen overflow-hidden transition-[height] ease duration-[400ms] lg:hidden fixed bg-cyan-700 w-full z-10"
+            ? "text-center h-16 overflow-hidden transition-[height] ease duration-[400ms] lg:hidden fixed bg-[#343434] w-full z-10 drop-shadow-md"
+            : "text-center h-screen overflow-hidden transition-[height] ease duration-[400ms] lg:hidden fixed bg-[#EA5455] w-full z-10"
         }
       >
         <div id="mobileNavWrapper">
