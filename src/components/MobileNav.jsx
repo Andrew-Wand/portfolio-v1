@@ -55,7 +55,7 @@ function MobileNav() {
           <input type="checkbox" onClick={openMobileMenu} />
 
           <svg
-            className="swap-off fill-current p-2 text-black "
+            className="swap-off fill-current p-2 text-[#2d2d2d]"
             xmlns="http://www.w3.org/2000/svg"
             width="60"
             height="60"
@@ -65,7 +65,7 @@ function MobileNav() {
           </svg>
 
           <svg
-            className="swap-on fill-current p-2 text-black "
+            className="swap-on fill-current p-2 text-[#2d2d2d]"
             xmlns="http://www.w3.org/2000/svg"
             width="60"
             height="60"
