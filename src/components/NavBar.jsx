@@ -3,7 +3,7 @@ import NameAnim from "./animations/NameAnim";
 function NavBar() {
   return (
     <div className="hidden lg:block">
-      <div className="navbar-wrapper navbar justify-end bg-base-200 h-20 fixed ">
+      <div className="navbar-wrapper navbar justify-end bg-[#ed6a5a] text-[#2d2d2d] h-20 fixed ">
         <nav>
           <ul className="flex">
             <li className="mr-10">

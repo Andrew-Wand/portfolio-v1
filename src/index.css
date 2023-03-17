@@ -5,6 +5,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  color: #ed6a5a;
 }
 
 .angle {
@@ -22,7 +23,7 @@ body {
 }
 
 .angle2::after {
-  background-color: #2d4059;
+  background-color: #111827;
   height: 75px;
   width: 100%;
   clip-path: polygon(0px 0px, 100% 0px, 0% 54.66%);

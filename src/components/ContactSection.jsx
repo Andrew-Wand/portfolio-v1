@@ -1,7 +1,5 @@
-import React from "react";
-
 function ContactSection() {
-  return <div>ContactSection</div>;
+  return <div className="h-[500px] bg-[#111827]">ContactSection</div>;
 }
 
 export default ContactSection;

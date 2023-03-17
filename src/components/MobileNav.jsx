@@ -14,8 +14,8 @@ function MobileNav() {
         id="mobileNav"
         className={
           !isOpen
-            ? "text-center h-16 overflow-hidden transition-[height] ease duration-[400ms] lg:hidden fixed bg-[#343434] w-full z-10 drop-shadow-md"
-            : "text-center h-screen overflow-hidden transition-[height] ease duration-[400ms] lg:hidden fixed bg-[#EA5455] w-full z-10"
+            ? "text-center h-16 overflow-hidden transition-[height] ease duration-[400ms] lg:hidden fixed bg-[#ed6a5a] w-full z-10 shadow-md"
+            : "text-center h-screen overflow-hidden transition-[height] ease duration-[400ms] lg:hidden fixed bg-[#ed6a5a] w-full z-10 text-[#2d2d2d]"
         }
       >
         <div id="mobileNavWrapper">
@@ -55,7 +55,7 @@ function MobileNav() {
           <input type="checkbox" onClick={openMobileMenu} />
 
           <svg
-            className="swap-off fill-current p-2 "
+            className="swap-off fill-current p-2 text-black "
             xmlns="http://www.w3.org/2000/svg"
             width="60"
             height="60"
@@ -65,7 +65,7 @@ function MobileNav() {
           </svg>
 
           <svg
-            className="swap-on fill-current p-2 "
+            className="swap-on fill-current p-2 text-black "
             xmlns="http://www.w3.org/2000/svg"
             width="60"
             height="60"
