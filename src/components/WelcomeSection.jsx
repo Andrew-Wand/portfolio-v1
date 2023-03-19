@@ -1,5 +1,6 @@
 import "../css/welcome.css";
 import WelcomeSvg from "../assets/welcome-svg.svg";
+import { HiCode } from "react-icons/hi";
 
 function WelcomeSection() {
   return (
@@ -13,6 +14,9 @@ function WelcomeSection() {
             <img src={WelcomeSvg} alt="" className="mt-16" />
           </figure>
         </div>
+      </div>
+      <div className="divider m-0 px-6 bg-[#111827] text-[4rem]">
+        <HiCode />
       </div>
     </section>
   );

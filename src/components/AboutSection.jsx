@@ -3,7 +3,7 @@ import PortfolioPic from "../assets/portfolio-pic.jpg";
 function AboutSection() {
   return (
     <div className="h-[800px] bg-[#111827] flex justify-center ">
-      <div className=" w-[20rem] mt-28">
+      <div className=" w-[20rem] mt-14">
         <h2 className="text-lg mt-14 text-left text-white">About</h2>
         <br />
         <p className="text-left text-xl">

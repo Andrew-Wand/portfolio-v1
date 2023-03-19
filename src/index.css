@@ -18,12 +18,12 @@ body {
 }
 
 .angle2 {
-  background-color: #2d4059;
+  background-color: #ed6a5a;
   position: relative;
 }
 
 .angle2::after {
-  background-color: #111827;
+  background-color: #ed6a5a;
   height: 75px;
   width: 100%;
   clip-path: polygon(0px 0px, 100% 0px, 0% 54.66%);
