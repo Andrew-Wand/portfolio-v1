@@ -9,7 +9,7 @@ function SkillsSection() {
       <div className="h-[1200px] bg-[#111827] flex justify-center">
         <div className="w-[20rem] mt-14">
           <h3 className="text-lg mt-14 text-left text-white mb-20">Skills</h3>
-          <div className="grid grid-cols-2 gap-16 mt-10 text-center">
+          <div className="grid grid-cols-2 lg:grid-cols-5 lg:gap-[10rem] gap-16 mt-10 text-center">
             <div>
               <i class="devicon-html5-plain text-[5rem] text-[#e54d26]"></i>
               <p className="text-xl mt-5">HTML5</p>

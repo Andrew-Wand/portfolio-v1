@@ -18,7 +18,7 @@ function AboutSection() {
             <img
               src={PortfolioPic}
               alt="Picture of Andrew"
-              className="rounded-full mt-10 shadow-xl"
+              className="rounded-3xl mt-14 drop-shadow-xl w-10/12 ml-7"
             />
           </figure>
         </div>
