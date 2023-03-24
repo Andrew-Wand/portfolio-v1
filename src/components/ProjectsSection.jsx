@@ -27,12 +27,11 @@ function ProjectsSection() {
               </p>
             </div>
             <div className="mt-5 ">
-              <ul className="grid grid-cols-3">
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>CSS3</li>
-                <li>Firebase</li>
-                <li>Tailwind CSS</li>
+              <ul className="grid grid-cols-2 text-white">
+                <li>⬥ React</li>
+                <li>⬥ JavaScript</li>
+                <li>⬥ Firebase</li>
+                <li>⬥ TailwindCSS</li>
               </ul>
             </div>
 
@@ -55,8 +54,8 @@ function ProjectsSection() {
               </a>
             </div>
           </div>
-          {/* NEXT APP */}
 
+          {/* NEXT APP */}
           <div className="mt-20">
             <div>
               <img
