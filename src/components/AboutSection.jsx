@@ -5,10 +5,12 @@ function AboutSection() {
   return (
     <section>
       <div className="h-[800px] bg-[#111827] flex justify-center">
-        <div className=" w-[20rem] mt-14">
-          <h2 className="text-lg mt-14 text-left text-white">About</h2>
+        <div className=" w-[20rem] mt-14 lg:w-6/12 lg:grid lg:grid-cols-2">
+          <h2 className="text-lg mt-14 text-left text-white lg:text-2xl">
+            About
+          </h2>
           <br />
-          <p className="text-left text-xl">
+          <p className="text-left text-xl lg:mt-20">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
             veniam quidem quaerat! Consequuntur natus atque odio aut consequatur
             neque? Cumque voluptatum architecto quaerat accusamus autem officiis
@@ -18,7 +20,7 @@ function AboutSection() {
             <img
               src={PortfolioPic}
               alt="Picture of Andrew"
-              className="rounded-3xl mt-14 drop-shadow-xl w-10/12 ml-7"
+              className="rounded-3xl mt-14 drop-shadow-xl w-10/12 ml-7 lg:w-full lg:ml-20"
             />
           </figure>
         </div>
