@@ -12,7 +12,7 @@ function ProjectsSection() {
       <div className=" bg-[#111827] flex justify-center">
         <div className="w-[20rem] lg:w-6/12 mt-14">
           <h2
-            className="text-lg lg:text-2xl mt-14 text-left text-white"
+            className="text-2xl lg:text-2xl mt-14 text-left text-white"
             data-aos="fade-up"
           >
             Projects
@@ -20,7 +20,7 @@ function ProjectsSection() {
 
           {/* SHOPPING APP */}
           <div
-            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[10rem]"
+            className="mt-28 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[10rem]"
             data-aos="fade-up"
           >
             <div className="">
@@ -73,7 +73,7 @@ function ProjectsSection() {
 
           {/* NEXT APP */}
           <div
-            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:my-[10rem]"
+            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:my-[14rem]"
             data-aos="fade-up"
           >
             <div className="">
@@ -125,7 +125,7 @@ function ProjectsSection() {
 
           {/* NEXT APP */}
           <div
-            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[10rem]"
+            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[14rem]"
             data-aos="fade-up"
           >
             <div className="">
@@ -178,7 +178,7 @@ function ProjectsSection() {
 
           {/* NEXT APP */}
           <div
-            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap  lg:my-[10rem]"
+            className="mt-20 mb-14 lg:flex lg:justify-between lg:flex-nowrap  lg:my-[14rem]"
             data-aos="fade-up"
           >
             <div className="">

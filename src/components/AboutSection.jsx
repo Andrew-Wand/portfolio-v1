@@ -14,7 +14,7 @@ function AboutSection() {
       <div className="h-[800px] bg-[#111827] flex justify-center">
         <div className=" w-[20rem] mt-14 lg:w-6/12 lg:grid lg:grid-cols-2">
           <h2
-            className="text-lg mt-14 text-left text-white lg:text-2xl"
+            className="text-2xl mt-14 text-left text-white lg:text-2xl"
             data-aos="fade-up"
           >
             About
@@ -36,7 +36,7 @@ function AboutSection() {
           </figure>
         </div>
       </div>
-      <div className="divider m-0 px-6 bg-[#111827] text-[4rem] mt-10">
+      <div className="divider m-0 px-6 bg-[#111827] text-[4rem] mt-10 lg:px-[30rem]">
         <HiCode />
       </div>
     </section>

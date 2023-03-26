@@ -17,7 +17,7 @@ function SkillsSection() {
         data-aos="fade-up"
       >
         <div className="w-[20rem] lg:w-6/12 mt-14">
-          <h3 className="text-lg mt-14 text-left text-white mb-20 lg:text-2xl lg:text-left">
+          <h3 className="text-2xl mt-14 text-left text-white mb-20 ml-5 lg:text-2xl lg:text-left">
             Skills
           </h3>
           <div className="grid grid-cols-2 lg:grid-cols-5 lg:gap-[10rem] lg:justify-center gap-16 mt-10 text-center">
@@ -81,7 +81,7 @@ function SkillsSection() {
           </div>
         </div>
       </div>
-      <div className="divider m-0 px-6 bg-[#111827] text-[4rem]">
+      <div className="divider m-0 px-6 bg-[#111827] text-[4rem] lg:px-[30rem]">
         <HiCode />
       </div>
     </section>

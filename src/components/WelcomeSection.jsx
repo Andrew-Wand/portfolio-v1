@@ -15,7 +15,7 @@ function WelcomeSection() {
   return (
     <section className="overflow-hidden">
       <div
-        className="h-[700px] lg:h-[900px] bg-[#111827] flex justify-center mt-20"
+        className="h-[700px] lg:h-[900px]  flex justify-center mt-20"
         data-aos="fade-up"
       >
         <div className=" h-[15rem] w-[20rem] lg:h-[30rem] lg:w-[40rem] mt-48 bg-[#ed6a5a] rounded-xl drop-shadow-xl border-2 border-[black] text-[#111827]">
@@ -27,7 +27,7 @@ function WelcomeSection() {
           </figure>
         </div>
       </div>
-      <div className="divider m-0 px-6 bg-[#111827] text-[4rem]">
+      <div className="divider m-0 px-6 bg-[#111827] text-[4rem] lg:px-[30rem]">
         <HiCode />
       </div>
     </section>
