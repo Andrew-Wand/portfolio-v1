@@ -1,16 +1,28 @@
+import { useEffect } from "react";
 import ShoppingAppScreenShot from "../assets/shoppingapp-screenshot.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function ProjectsSection() {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
   return (
     <section>
       <div className=" bg-[#111827] flex justify-center">
         <div className="w-[20rem] lg:w-6/12 mt-14">
-          <h2 className="text-lg lg:text-2xl mt-14 text-left text-white">
+          <h2
+            className="text-lg lg:text-2xl mt-14 text-left text-white"
+            data-aos="fade-up"
+          >
             Projects
           </h2>
 
           {/* SHOPPING APP */}
-          <div className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[10rem]">
+          <div
+            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[10rem]"
+            data-aos="fade-up"
+          >
             <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
@@ -60,7 +72,10 @@ function ProjectsSection() {
           </div>
 
           {/* NEXT APP */}
-          <div className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:my-[10rem]">
+          <div
+            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:my-[10rem]"
+            data-aos="fade-up"
+          >
             <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
@@ -109,7 +124,10 @@ function ProjectsSection() {
           </div>
 
           {/* NEXT APP */}
-          <div className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[10rem]">
+          <div
+            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[10rem]"
+            data-aos="fade-up"
+          >
             <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
@@ -159,7 +177,10 @@ function ProjectsSection() {
           </div>
 
           {/* NEXT APP */}
-          <div className="mt-20 lg:flex lg:justify-between lg:flex-nowrap  lg:my-[10rem]">
+          <div
+            className="mt-20 lg:flex lg:justify-between lg:flex-nowrap  lg:my-[10rem]"
+            data-aos="fade-up"
+          >
             <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"

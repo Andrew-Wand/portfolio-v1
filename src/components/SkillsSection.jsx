@@ -1,12 +1,21 @@
+import { useEffect } from "react";
 import { FaCogs } from "react-icons/fa";
 import { ImMobile } from "react-icons/im";
 import { BiUniversalAccess } from "react-icons/bi";
 import { HiCode } from "react-icons/hi";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function SkillsSection() {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
   return (
     <section>
-      <div className="h-[1200px] lg:h-[800px] bg-[#111827] flex justify-center">
+      <div
+        className="h-[1200px] lg:h-[800px] bg-[#111827] flex justify-center"
+        data-aos="fade-up"
+      >
         <div className="w-[20rem] lg:w-6/12 mt-14">
           <h3 className="text-lg mt-14 text-left text-white mb-20 lg:text-2xl lg:text-left">
             Skills
