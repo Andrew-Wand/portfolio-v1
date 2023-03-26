@@ -13,7 +13,7 @@ function WelcomeSection() {
   // { once: true }
 
   return (
-    <section className="overflow-hidden">
+    <section className="overflow-hidden" id="home">
       <div
         className="h-[700px] lg:h-[900px]  flex justify-center mt-20"
         data-aos="fade-up"

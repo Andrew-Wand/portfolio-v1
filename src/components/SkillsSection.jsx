@@ -11,7 +11,7 @@ function SkillsSection() {
     AOS.init({ once: true });
   }, []);
   return (
-    <section>
+    <section id="skills">
       <div
         className="h-[1200px] lg:h-[800px] bg-[#111827] flex justify-center"
         data-aos="fade-up"
@@ -54,7 +54,7 @@ function SkillsSection() {
             </div>
 
             <div>
-              <div className="ml-5">
+              <div className="ml-5 lg:ml-0">
                 <i class="text-[5rem] text-[#f7e7ce]">
                   <FaCogs />
                 </i>
@@ -63,7 +63,7 @@ function SkillsSection() {
             </div>
 
             <div>
-              <div className="ml-7">
+              <div className="ml-7 lg:ml-2">
                 <i class="text-[5rem] text-[#f5f5dc]">
                   <ImMobile />
                 </i>
@@ -71,7 +71,7 @@ function SkillsSection() {
               <p className="text-xl mt-5 ">Responsive Websites</p>
             </div>
             <div>
-              <div className="ml-7">
+              <div className="ml-7 lg:ml-2">
                 <i class="text-[5rem] text-white">
                   <BiUniversalAccess />
                 </i>

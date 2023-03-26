@@ -7,27 +7,27 @@ function NavBar() {
         <nav>
           <ul className="flex mr-20">
             <li className="mr-10 relative">
-              <a href="" className="nav-link text-2xl ">
+              <a href="#home" className="nav-link text-2xl ">
                 Home
               </a>
             </li>
             <li className="mr-10 relative">
-              <a href="" className="nav-link text-2xl">
+              <a href="#about" className="nav-link text-2xl">
                 About
               </a>
             </li>
             <li className="mr-10 relative">
-              <a href="" className="nav-link text-2xl">
+              <a href="#skills" className="nav-link text-2xl">
                 Skills
               </a>
             </li>
             <li className="mr-10 relative">
-              <a href="" className="nav-link text-2xl">
+              <a href="#projects" className="nav-link text-2xl">
                 Projects
               </a>
             </li>
             <li className="mr-10 relative">
-              <a href="" className="nav-link text-2xl">
+              <a href="mailto:awanddev@gmail.com" className="nav-link text-2xl">
                 Contact
               </a>
             </li>

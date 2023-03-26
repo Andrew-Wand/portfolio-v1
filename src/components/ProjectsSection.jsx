@@ -8,7 +8,7 @@ function ProjectsSection() {
     AOS.init({ once: true });
   }, []);
   return (
-    <section>
+    <section id="projects">
       <div className=" bg-[#111827] flex justify-center">
         <div className="w-[20rem] lg:w-6/12 mt-14">
           <h2

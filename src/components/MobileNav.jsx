@@ -8,6 +8,10 @@ function MobileNav() {
     setIsOpen(!isOpen);
   };
 
+  const closeMobileMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <div
@@ -22,27 +26,35 @@ function MobileNav() {
           <nav className="mobileNav">
             <ul className="mt-28">
               <li className="mb-16">
-                <a className="text-2xl" href="">
+                <a className="text-2xl" href="#home" onClick={closeMobileMenu}>
                   Home
                 </a>
               </li>
               <li className="mb-16">
-                <a href="" className="text-2xl">
+                <a href="#about" className="text-2xl" onClick={closeMobileMenu}>
                   About
                 </a>
               </li>
               <li className="mb-16">
-                <a href="" className="text-2xl">
+                <a
+                  href="#skills"
+                  className="text-2xl"
+                  onClick={closeMobileMenu}
+                >
                   Skills
                 </a>
               </li>
               <li className="mb-16">
-                <a href="" className="text-2xl">
+                <a
+                  href="#projects"
+                  className="text-2xl"
+                  onClick={closeMobileMenu}
+                >
                   Projects
                 </a>
               </li>
               <li className="mb-16">
-                <a href="" className="text-2xl">
+                <a href="mailto:awanddev@gmail.com" className="text-2xl">
                   Contact
                 </a>
               </li>
@@ -52,7 +64,11 @@ function MobileNav() {
       </div>
       <div className="mobileMenuLink text-center lg:hidden fixed w-full h-16 z-20 ">
         <label className="btn btn-square swap swap-rotate right-[-35%] top-2 bg-transparent border-0 ">
-          <input type="checkbox" onClick={openMobileMenu} />
+          {!isOpen ? (
+            <input type="checkbox" onClick={openMobileMenu} />
+          ) : (
+            <input type="checkbox" onClick={openMobileMenu} checked />
+          )}
 
           <svg
             className="swap-off fill-current p-2 text-[#2d2d2d]"

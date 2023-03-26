@@ -10,7 +10,7 @@ function AboutSection() {
   }, []);
 
   return (
-    <section>
+    <section id="about">
       <div className="h-[800px] bg-[#111827] flex justify-center">
         <div className=" w-[20rem] mt-14 lg:w-6/12 lg:grid lg:grid-cols-2">
           <h2
