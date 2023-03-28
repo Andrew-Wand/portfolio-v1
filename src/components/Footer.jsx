@@ -2,7 +2,7 @@ import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 function Footer() {
   return (
     <footer>
-      <div className="bg-[#ed6a5a] h-[6rem] lg:h-[8rem] text-[#111827] flex flex-col items-center">
+      <div className="bg-[#ed6a5a] h-[8rem] lg:h-[8rem] text-[#111827] flex flex-col items-center">
         <div className="flex text-3xl lg:text-4xl mt-10">
           <a
             href="https://github.com/Andrew-Wand"
