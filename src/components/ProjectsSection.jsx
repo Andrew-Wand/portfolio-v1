@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import shoppingappscreenshot from "../assets/shoppingappscreenshot.JPG";
+import shoppingappscreenshot from "../assets/shoppingappscreenshot.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
