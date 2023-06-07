@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ShoppingAppScreenShot from "../assets/shoppingappscreenshot.jpg";
+import shoppingappscreenshot from "../assets/shoppingappscreenshot.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -26,7 +26,7 @@ function ProjectsSection() {
             <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
-                src={ShoppingAppScreenShot}
+                src={shoppingappscreenshot}
                 alt="Shopping App Image"
               />
             </div>
