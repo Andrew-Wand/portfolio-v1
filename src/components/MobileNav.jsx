@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { BsChevronDown, BsChevronUp } from "react-icons/bs";
 
 function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
