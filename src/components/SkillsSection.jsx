@@ -13,7 +13,7 @@ function SkillsSection() {
   return (
     <section id="skills">
       <div
-        className="h-[1200px] lg:h-[800px] bg-[#111827] flex justify-center"
+        className="h-[1400px] lg:h-[1000px] bg-[#111827] flex justify-center"
         data-aos="fade-up"
       >
         <div className="w-[20rem] lg:w-6/12 mt-14">
@@ -41,6 +41,10 @@ function SkillsSection() {
             <div>
               <i class="devicon-git-plain colored text-[5rem] text-[#f05033]"></i>
               <p className="text-xl mt-5">Git</p>
+            </div>
+            <div>
+              <i class="devicon-typescript-plain colored text-[5rem] text-[#f05033]"></i>
+              <p className="text-xl mt-5">TypeScript</p>
             </div>
 
             <div>
@@ -70,15 +74,16 @@ function SkillsSection() {
               </div>
               <p className="text-xl mt-5 ">Responsive Websites</p>
             </div>
-            <div>
-              <div className="ml-7 lg:ml-2">
+           
+          </div>
+          <div className="flex flex-col items-center mt-12">
+              <div className="">
                 <i class="text-[5rem] text-white">
                   <BiUniversalAccess />
                 </i>
               </div>
               <p className="text-xl mt-5">Accessibility</p>
             </div>
-          </div>
         </div>
       </div>
       <div className="divider m-0 px-6 bg-[#111827] text-[4rem] lg:px-[30rem]">
