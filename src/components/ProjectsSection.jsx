@@ -23,13 +23,13 @@ function ProjectsSection() {
             className="mt-28 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[10rem]"
             data-aos="fade-up"
           >
-            {/* <div className="">
+            <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
                 src={shoppingappscreenshot}
                 alt="Shopping App Image"
               />
-            </div> */}
+            </div>
 
             <div className="mt-5 lg:mr-7">
               <h4 className="mb-10 text-xl text-white lg:text-3xl">
