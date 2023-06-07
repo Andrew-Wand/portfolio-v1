@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import shoppingappscreenshot from "../assets/shoppingappscreenshot.jpg";
+import ShoppingAppPic from '../assets/shopping-app-pic.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -26,7 +26,7 @@ function ProjectsSection() {
             <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
-                src={shoppingappscreenshot}
+                src={ShoppingAppPic}
                 alt="Shopping App Image"
               />
             </div>
@@ -79,7 +79,7 @@ function ProjectsSection() {
             <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
-                src={shoppingappscreenshot}
+                src={ShoppingAppPic}
                 alt="Shopping App Image"
               />
             </div>
@@ -131,7 +131,7 @@ function ProjectsSection() {
             <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
-                src={shoppingappscreenshot}
+                src={ShoppingAppPic}
                 alt="Shopping App Image"
               />
             </div>
@@ -184,7 +184,7 @@ function ProjectsSection() {
             <div className="">
               <img
                 className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
-                src={shoppingappscreenshot}
+                src={ShoppingAppPic}
                 alt="Shopping App Image"
               />
             </div>
