@@ -1,7 +1,11 @@
 import { useEffect } from "react";
 import ShoppingAppPic from '../assets/shopping-app-pic.png'
+import MovieNightPic from '../assets/movie-night-pic.png'
+import NetflixClonePic from '../assets/netflix-clone-pic.png'
+import HangmanGamePic from '../assets/hangman-game-pic.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { BiLinkExternal } from "react-icons/bi";
 
 function ProjectsSection() {
   useEffect(() => {
@@ -18,14 +22,14 @@ function ProjectsSection() {
             Projects
           </h2>
 
-        
+        {/* First app */}
           <div
             className="mt-28 lg:flex lg:justify-between lg:flex-nowrap lg:flex-row-reverse lg:my-[10rem]"
             data-aos="fade-up"
           >
             <div className="">
               <img
-                className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
+                className="h-[200px] rounded-xl drop-shadow-lg lg:h-[80%] lg:mt-5"
                 src={ShoppingAppPic}
                 alt="Shopping App Image"
               />
@@ -33,7 +37,7 @@ function ProjectsSection() {
 
             <div className="mt-5 lg:mr-7">
               <h4 className="mb-10 text-xl text-white lg:text-3xl">
-                Clothing Store App
+                The Top Shop
               </h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -56,16 +60,18 @@ function ProjectsSection() {
                   href="https://shopping-app-react-z3nr.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open link to new tab to view The Top Shop website."
                 >
-                  View Project Here
+                  View Project Here <span className="ml-3"><BiLinkExternal /></span>
                 </a>
                 <a
                   className="btn"
                   href="https://github.com/Andrew-Wand/shopping-app-react"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open link to new tab to view repo for The Top Shop project."
                 >
-                  View Repo Here
+                  View Repo Here <span className="ml-3"><BiLinkExternal /></span>
                 </a>
               </div>
             </div>
@@ -78,14 +84,14 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
-                src={ShoppingAppPic}
-                alt="Shopping App Image"
+                className="h-[200px] rounded-xl drop-shadow-lg lg:h-[80%] lg:mt-5"
+                src={MovieNightPic}
+                alt="Movie Night App Image"
               />
             </div>
             <div className="mt-5 lg:ml-7">
               <h4 className="mb-10 text-xl text-white lg:text-3xl">
-                Clothing Store App
+                Movie Night
               </h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -99,6 +105,7 @@ function ProjectsSection() {
                   <li>⬥ JavaScript</li>
                   <li>⬥ Firebase</li>
                   <li>⬥ TailwindCSS</li>
+                  <li>⬥ TypeScript</li>
                 </ul>
               </div>
 
@@ -108,16 +115,18 @@ function ProjectsSection() {
                   href="https://shopping-app-react-z3nr.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open link to new tab to view the Movie Night website."
                 >
-                  View Project Here
+                  View Project Here <span className="ml-3"><BiLinkExternal /></span>
                 </a>
                 <a
                   className="btn"
                   href="https://github.com/Andrew-Wand/shopping-app-react"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open link to new tab to view the Movie Night repo."
                 >
-                  View Repo Here
+                  View Repo Here <span className="ml-3"><BiLinkExternal /></span>
                 </a>
               </div>
             </div>
@@ -130,15 +139,15 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
-                src={ShoppingAppPic}
-                alt="Shopping App Image"
+                className="h-[200px] rounded-xl drop-shadow-lg lg:h-[80%] lg:mt-5"
+                src={HangmanGamePic}
+                alt="Hangman Game Picture"
               />
             </div>
 
             <div className="mt-5 lg:mr-7">
               <h4 className="mb-10 text-xl text-white lg:text-3xl">
-                Clothing Store App
+                Hangman Game
               </h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -148,10 +157,10 @@ function ProjectsSection() {
               </p>
               <div className="mt-5 ">
                 <ul className="grid grid-cols-2 text-white">
-                  <li>⬥ React</li>
+                  <li>⬥ HTML5</li>
                   <li>⬥ JavaScript</li>
-                  <li>⬥ Firebase</li>
-                  <li>⬥ TailwindCSS</li>
+                  <li>⬥ CSS3</li>
+               
                 </ul>
               </div>
 
@@ -161,16 +170,18 @@ function ProjectsSection() {
                   href="https://shopping-app-react-z3nr.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open a new tab to view the Hangman Game website."
                 >
-                  View Project Here
+                  View Project Here <span className="ml-3"><BiLinkExternal /></span>
                 </a>
                 <a
                   className="btn"
                   href="https://github.com/Andrew-Wand/shopping-app-react"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open a new tab to view the Hangman Game repo."
                 >
-                  View Repo Here
+                  View Repo Here <span className="ml-3"><BiLinkExternal /></span>
                 </a>
               </div>
             </div>
@@ -183,14 +194,14 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] rounded-xl drop-shadow-lg lg:h-full"
-                src={ShoppingAppPic}
-                alt="Shopping App Image"
+                className="h-[200px] rounded-xl drop-shadow-lg lg:h-[80%] lg:mt-5"
+                src={NetflixClonePic}
+                alt="Netflix Clone Image"
               />
             </div>
             <div className="mt-5 lg:ml-7">
               <h4 className="mb-10 text-xl text-white lg:text-3xl">
-                Clothing Store App
+                Netflix Clone
               </h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -201,9 +212,8 @@ function ProjectsSection() {
               <div className="mt-5 ">
                 <ul className="grid grid-cols-2 text-white">
                   <li>⬥ React</li>
-                  <li>⬥ JavaScript</li>
-                  <li>⬥ Firebase</li>
-                  <li>⬥ TailwindCSS</li>
+                  <li>⬥ HTML5</li>
+                  <li>⬥ CSS3</li>
                 </ul>
               </div>
 
@@ -213,16 +223,18 @@ function ProjectsSection() {
                   href="https://shopping-app-react-z3nr.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open a new tab to view the Netflix Clone website."
                 >
-                  View Project Here
+                  View Project Here <span className="ml-3"><BiLinkExternal /></span>
                 </a>
                 <a
                   className="btn"
                   href="https://github.com/Andrew-Wand/shopping-app-react"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open a new tab to view the Netflix Clone repo."
                 >
-                  View Repo Here
+                  View Repo Here <span className="ml-3"><BiLinkExternal /></span>
                 </a>
               </div>
             </div>
