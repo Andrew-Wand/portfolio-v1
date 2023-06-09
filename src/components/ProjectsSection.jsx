@@ -97,7 +97,7 @@ function ProjectsSection() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                 quis repellat necessitatibus debitis dolorum cum impedit sed
                 laudantium cumque quibusdam, dignissimos quasi ipsam dolorem
-                iure velit iusto reiciendis culpa quaerat.
+                iure velit iusto reiciendis culpa.
               </p>
               <div className="mt-5 ">
                 <ul className="grid grid-cols-2 text-white">
