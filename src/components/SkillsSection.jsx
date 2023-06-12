@@ -20,7 +20,7 @@ function SkillsSection() {
           <h3 className="text-2xl mt-14 text-left text-white mb-20 ml-5 lg:text-2xl lg:text-left">
             Skills
           </h3>
-          <div className="grid grid-cols-2 lg:grid-cols-5 lg:gap-[10rem] lg:justify-center gap-16 mt-10 text-center">
+          <div className="grid grid-cols-2 lg:grid-cols-5 lg:gap-[4rem] lg:justify-center gap-16 mt-10 text-center">
             <div>
               <i class="devicon-html5-plain text-[5rem] text-[#e54d26]"></i>
               <p className="text-xl mt-5">HTML5</p>
@@ -58,7 +58,7 @@ function SkillsSection() {
             </div>
 
             <div>
-              <div className="ml-5 lg:ml-0">
+              <div className="ml-5 lg:ml-[23%]">
                 <i class="text-[5rem] text-[#f7e7ce]">
                   <FaCogs />
                 </i>
@@ -67,12 +67,12 @@ function SkillsSection() {
             </div>
 
             <div>
-              <div className="ml-7 lg:ml-2">
+              <div className="ml-6 lg:flex lg:justify-center xl:mr-5">
                 <i class="text-[5rem] text-[#f5f5dc]">
                   <ImMobile />
                 </i>
               </div>
-              <p className="text-xl mt-5 ">Responsive Websites</p>
+              <p className="text-xl mt-5">Responsive Websites</p>
             </div>
            
           </div>
