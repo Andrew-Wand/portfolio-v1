@@ -40,10 +40,7 @@ function ProjectsSection() {
                 The Top Shop
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                quis repellat necessitatibus debitis dolorum cum impedit sed
-                laudantium cumque quibusdam, dignissimos quasi ipsam dolorem
-                iure velit iusto reiciendis culpa quaerat.
+               Clothing shop website specializing in shirts and other types of tops. Create an account, log in, and add things to your wishlist. When ready, you can then go to your cart to check out.
               </p>
               <div className="mt-5 ">
                 <ul className="grid grid-cols-2 text-white">
@@ -57,7 +54,7 @@ function ProjectsSection() {
               <div className="mt-5 flex justify-center">
                 <a
                   className="btn mr-5"
-                  href="https://shopping-app-react-z3nr.vercel.app/"
+                  href="https://shopping-app-react-two.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="open link to new tab to view The Top Shop website."
@@ -94,10 +91,7 @@ function ProjectsSection() {
                 Movie Night
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                quis repellat necessitatibus debitis dolorum cum impedit sed
-                laudantium cumque quibusdam, dignissimos quasi ipsam dolorem
-                iure velit iusto reiciendis culpa.
+                A movie rating app, created because I love watching movies, and I wanted a way to save and rate the movies I had watched. Just create an account and add your movies to the list. When you finish watching a movie, you can rate it and add the date watched.
               </p>
               <div className="mt-5 ">
                 <ul className="grid grid-cols-2 text-white">
@@ -150,10 +144,7 @@ function ProjectsSection() {
                 Hangman Game
               </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                quis repellat necessitatibus debitis dolorum cum impedit sed
-                laudantium cumque quibusdam, dignissimos quasi ipsam dolorem
-                iure velit iusto reiciendis culpa quaerat.
+               A simple hangman game using vanilla JavaScript. I wanted to use this game to enhance my vanilla JavaScript knowledge.
               </p>
               <div className="mt-5 ">
                 <ul className="grid grid-cols-2 text-white">

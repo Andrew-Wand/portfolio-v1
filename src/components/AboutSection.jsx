@@ -11,7 +11,7 @@ function AboutSection() {
 
   return (
     <section id="about">
-      <div className="h-[800px] bg-[#111827] flex justify-center">
+      <div className="h-[1000px] lg:h-[800px] bg-[#111827] flex justify-center lg:mb-36">
         <div className=" w-[20rem] mt-14 lg:w-6/12 lg:grid lg:grid-cols-2">
           <h2
             className="text-2xl mt-14 text-left text-white lg:text-2xl"
@@ -20,11 +20,21 @@ function AboutSection() {
             About
           </h2>
           <br />
-          <p className="text-left text-xl lg:mt-20" data-aos="fade-up">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-            veniam quidem quaerat! Consequuntur natus atque odio aut consequatur
-            neque? Cumque voluptatum architecto quaerat accusamus autem officiis
-            adipisci blanditiis, soluta eum?
+          <p className="text-left text-xl lg:mt-[3.5rem]" data-aos="fade-up">
+              Hello, my name is Andrew! I started doing front end web development
+              because of my desire for a career in problem solving and creating
+              projects that I can feel proud of. Outside of working I
+              spend all my free time creating as many new projects as I can. I
+              have been working with and am fairly experienced in{" "}
+              <span className="text-green-100">
+                {" "}
+                HTML5, CSS3, JavaScript and ReactJS.
+              </span>{" "}
+              <br />
+              <br />
+              I have recently been working on projects using{" "}
+              <span className="text-green-100">TypeScript </span>
+              to strengthen my experience and knowledge as a developer.
           </p>
           <figure>
             <img
