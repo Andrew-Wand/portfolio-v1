@@ -8,6 +8,7 @@ function Footer() {
             href="https://github.com/Andrew-Wand"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Link to Andrew Wand's git hub page."
           >
             <AiFillGithub className="mr-7" />
           </a>
@@ -16,6 +17,7 @@ function Footer() {
             href="mailto:awanddev@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Link to contact Andrew Wand using email."
           >
             <AiOutlineMail />
           </a>

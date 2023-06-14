@@ -36,9 +36,9 @@ function ProjectsSection() {
             </div>
 
             <div className="mt-5 lg:mr-7">
-              <h4 className="mb-10 text-xl text-white lg:text-3xl">
+              <h3 className="mb-10 text-xl text-white lg:text-3xl">
                 The Top Shop
-              </h4>
+              </h3>
               <p>
                Clothing shop website specializing in shirts and other types of tops. Create an account, log in, and add things to your wishlist. When ready, you can then go to your cart to check out.
               </p>
@@ -87,9 +87,9 @@ function ProjectsSection() {
               />
             </div>
             <div className="mt-5 lg:ml-7">
-              <h4 className="mb-10 text-xl text-white lg:text-3xl">
+              <h3 className="mb-10 text-xl text-white lg:text-3xl">
                 Movie Night
-              </h4>
+              </h3>
               <p>
                 A movie rating app, created because I love watching movies, and I wanted a way to save and rate the movies I had watched. Just create an account and add your movies to the list. When you finish watching a movie, you can rate it and add the date watched.
               </p>
@@ -140,9 +140,9 @@ function ProjectsSection() {
             </div>
 
             <div className="mt-5 lg:mr-7">
-              <h4 className="mb-10 text-xl text-white lg:text-3xl">
+              <h3 className="mb-10 text-xl text-white lg:text-3xl">
                 Hangman Game
-              </h4>
+              </h3>
               <p>
                A simple hangman game using vanilla JavaScript. I wanted to use this game to enhance my vanilla JavaScript knowledge.
               </p>
@@ -191,9 +191,9 @@ function ProjectsSection() {
               />
             </div>
             <div className="mt-5 lg:ml-7">
-              <h4 className="mb-10 text-xl text-white lg:text-3xl">
+              <h3 className="mb-10 text-xl text-white lg:text-3xl">
                 Netflix Clone
-              </h4>
+              </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                 quis repellat necessitatibus debitis dolorum cum impedit sed
