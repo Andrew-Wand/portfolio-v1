@@ -29,7 +29,7 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] rounded-xl drop-shadow-lg lg:h-[80%] lg:mt-5"
+                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-[80%] lg:w-[80%] lg:mt-5 lg:ml-10"
                 src={ShoppingAppPic}
                 alt="Shopping App Image"
               />
@@ -81,7 +81,7 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] rounded-xl drop-shadow-lg lg:h-[80%] lg:mt-5"
+                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-[70%] lg:w-[90%] lg:mt-5"
                 src={MovieNightPic}
                 alt="Movie Night App Image"
               />
@@ -133,7 +133,7 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] rounded-xl drop-shadow-lg lg:h-[80%] lg:mt-5"
+                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-[75%] lg:w-[70%] lg:ml-16 lg:mt-5"
                 src={HangmanGamePic}
                 alt="Hangman Game Picture"
               />
@@ -144,7 +144,10 @@ function ProjectsSection() {
                 Hangman Game
               </h3>
               <p>
-               A simple hangman game using vanilla JavaScript. I wanted to use this game to enhance my vanilla JavaScript knowledge.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                quis repellat necessitatibus debitis dolorum cum impedit sed
+                laudantium cumque quibusdam, dignissimos quasi ipsam dolorem
+                iure velit iusto reiciendis culpa quaerat.
               </p>
               <div className="mt-5 ">
                 <ul className="grid grid-cols-2 text-white">
@@ -185,7 +188,7 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] rounded-xl drop-shadow-lg lg:h-[80%] lg:mt-5"
+                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-[70%] lg:w-[90%] lg:mt-5"
                 src={NetflixClonePic}
                 alt="Netflix Clone Image"
               />
