@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import PortfolioPic from "../assets/portfolio-pic.jpg";
+import PortfolioPic from "../assets/portfolio-pic.webp";
 import { HiCode } from "react-icons/hi";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -40,7 +40,7 @@ function AboutSection() {
             <img
               src={PortfolioPic}
               alt="Picture of Andrew"
-              className="rounded-3xl mt-14 drop-shadow-xl w-10/12 ml-7 lg:w-full lg:ml-20"
+              className="rounded-3xl mt-14 drop-shadow-xl w-10/12 ml-7 lg:w-full lg:h-auto lg:ml-20"
               data-aos="fade-up"
             />
           </figure>

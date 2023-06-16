@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import ShoppingAppPic from '../assets/shopping-app-pic.png'
-import MovieNightPic from '../assets/movie-night-pic.png'
-import NetflixClonePic from '../assets/netflix-clone-pic.png'
-import HangmanGamePic from '../assets/hangman-game-pic.png'
+import ShoppingAppPic from '../assets/shopping-app-pic.webp'
+import MovieNightPic from '../assets/movie-night-pic.webp'
+import NetflixClonePic from '../assets/netflix-clone-pic.webp'
+import HangmanGamePic from '../assets/hangman-game-pic.webp'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BiLinkExternal } from "react-icons/bi";
@@ -29,7 +29,7 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-[80%] lg:w-[80%] lg:mt-5 lg:ml-10"
+                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-auto lg:w-full lg:mt-5 lg:ml-10"
                 src={ShoppingAppPic}
                 alt="Shopping App Image"
               />
@@ -81,7 +81,7 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-[70%] lg:w-[90%] lg:mt-5"
+                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-auto lg:w-full lg:mt-5"
                 src={MovieNightPic}
                 alt="Movie Night App Image"
               />
@@ -133,7 +133,7 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-[75%] lg:w-[70%] lg:ml-16 lg:mt-5"
+                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-auto lg:w-full  lg:ml-16 lg:mt-5"
                 src={HangmanGamePic}
                 alt="Hangman Game Picture"
               />
@@ -188,7 +188,7 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-[70%] lg:w-[90%] lg:mt-5"
+                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-auto lg:w-full lg:mt-5"
                 src={NetflixClonePic}
                 alt="Netflix Clone Image"
               />
