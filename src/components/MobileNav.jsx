@@ -62,11 +62,11 @@ function MobileNav() {
         </div>
       </div>
       <div className="mobileMenuLink text-center lg:hidden fixed w-full h-16 z-20 ">
-        <label className="btn btn-square swap swap-rotate right-[-35%] top-2 bg-transparent border-0 ">
+        <label className="btn btn-square swap swap-rotate right-[-35%] top-2 bg-transparent border-0 " for='hamburger'>
           {!isOpen ? (
-            <input type="checkbox" onClick={openMobileMenu} />
+            <input type="checkbox" onClick={openMobileMenu} id="hamburger" />
           ) : (
-            <input type="checkbox" onClick={openMobileMenu} checked />
+            <input type="checkbox" onClick={openMobileMenu} checked id="hamburger" />
           )}
 
           <svg
