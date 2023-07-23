@@ -21,20 +21,19 @@ function AboutSection() {
           </h2>
           <br />
           <p className="text-left text-xl lg:mt-[3.5rem]" data-aos="fade-up">
-              Hello, my name is Andrew! I started doing front end web development
-              because of my desire for a career in problem solving and creating
-              projects that I can feel proud of. Outside of working I
-              spend all my free time creating as many new projects as I can. I
-              have been working with and am fairly experienced in{" "}
-              <span className="text-green-100">
-                {" "}
-                HTML5, CSS3, JavaScript and ReactJS.
-              </span>{" "}
-              <br />
-              <br />
-              I have recently been working on projects using{" "}
-              <span className="text-green-100">TypeScript </span>
-              to strengthen my experience and knowledge as a developer.
+            Hello, my name is Andrew! I started doing front end web development
+            because of my desire for a career in problem solving and creating
+            projects that I can feel proud of. Outside of working I spend all my
+            free time creating as many new projects as I can. I have been
+            working with and am fairly experienced in{" "}
+            <span className="text-[#fff]">
+              {" "}
+              HTML5, CSS3, JavaScript and ReactJS.
+            </span>{" "}
+            <br />
+            <br />I have recently been working on projects using{" "}
+            <span className="text-[#fff]">TypeScript </span>
+            to strengthen my experience and knowledge as a developer.
           </p>
           <figure>
             <img

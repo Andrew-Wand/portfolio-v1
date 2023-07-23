@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import ShoppingAppPic from "../assets/shopping-app-pic.webp";
+
+import ShoppingAppPicEdit from "../assets/shopping-app-pic-edit-2.webp";
 import MovieNightPic from "../assets/movie-night-pic.webp";
+import MovieNightPicEdit from "../assets/movie-night-pic-edit.webp";
 import NetflixClonePic from "../assets/netflix-clone-pic.webp";
 import HangmanGamePic from "../assets/hangman-game-pic.webp";
 import PetFinderPic from "../assets/pet-finder-pic.webp";
@@ -31,7 +34,7 @@ function ProjectsSection() {
             <div className="">
               <img
                 className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-auto lg:w-full lg:mt-5 lg:ml-10"
-                src={ShoppingAppPic}
+                src={ShoppingAppPicEdit}
                 alt="Shopping App Image"
               />
             </div>
@@ -163,10 +166,11 @@ function ProjectsSection() {
                 Hangman Game
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                quis repellat necessitatibus debitis dolorum cum impedit sed
-                laudantium cumque quibusdam, dignissimos quasi ipsam dolorem
-                iure velit iusto reiciendis culpa quaerat.
+                With this project, I wanted to go back to the basics, so to
+                speak, and show what I can do in vanilla JavaScript. So what
+                better way to showcase that, than with a fun game! A word will
+                be randomly generated for you, and it is up to you to guess the
+                letters before the hangman is hanged.
               </p>
               <div className="mt-5 ">
                 <ul className="grid grid-cols-2 text-white">
@@ -222,10 +226,10 @@ function ProjectsSection() {
                 Pet Finder API App
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                quis repellat necessitatibus debitis dolorum cum impedit sed
-                laudantium cumque quibusdam, dignissimos quasi ipsam dolorem
-                iure velit iusto reiciendis culpa quaerat.
+                A pet finding website using the PetFinder API. You can search
+                through various species. Find the pet that interests you and
+                click on their profiles to get to know them better. Then you can
+                adopt them using the adoption form.
               </p>
               <div className="mt-5 ">
                 <ul className="grid grid-cols-2 text-white">
