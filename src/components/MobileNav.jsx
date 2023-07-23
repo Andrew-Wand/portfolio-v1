@@ -60,7 +60,7 @@ function MobileNav() {
               <li className="mb-16">
                 <a
                   href="https://drive.google.com/file/d/1xCKV4fjW0RUl2Y9fazhpRh7wSLkbylzF/view?usp=sharing"
-                  className="text-2xl"
+                  className="text-2xl text-white"
                 >
                   Resume
                 </a>

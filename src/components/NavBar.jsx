@@ -34,7 +34,7 @@ function NavBar() {
             <li className="mr-10 relative">
               <a
                 href="https://drive.google.com/file/d/1xCKV4fjW0RUl2Y9fazhpRh7wSLkbylzF/view?usp=sharing"
-                className="nav-link text-2xl"
+                className="nav-link text-2xl text-white"
               >
                 Resume
               </a>
