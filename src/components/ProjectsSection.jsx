@@ -122,7 +122,7 @@ function ProjectsSection() {
               <div className="mt-5 flex justify-center">
                 <a
                   className="btn mr-5"
-                  href="https://shopping-app-react-z3nr.vercel.app/"
+                  href="https://movielist-app-v2.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="open link to new tab to view the Movie Night website."
@@ -134,7 +134,7 @@ function ProjectsSection() {
                 </a>
                 <a
                   className="btn"
-                  href="https://github.com/Andrew-Wand/shopping-app-react"
+                  href="https://github.com/Andrew-Wand/movielist-app-v2"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="open link to new tab to view the Movie Night repo."
@@ -183,7 +183,7 @@ function ProjectsSection() {
               <div className="mt-5 flex justify-center">
                 <a
                   className="btn mr-5"
-                  href="https://shopping-app-react-z3nr.vercel.app/"
+                  href="https://hangman-game-rho-mocha.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="open a new tab to view the Hangman Game website."
@@ -195,7 +195,7 @@ function ProjectsSection() {
                 </a>
                 <a
                   className="btn"
-                  href="https://github.com/Andrew-Wand/shopping-app-react"
+                  href="https://github.com/Andrew-Wand/hangman-game"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="open a new tab to view the Hangman Game repo."
