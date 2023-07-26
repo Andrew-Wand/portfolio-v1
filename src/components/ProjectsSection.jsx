@@ -2,11 +2,13 @@ import { useEffect } from "react";
 import ShoppingAppPic from "../assets/shopping-app-pic.webp";
 
 import ShoppingAppPicEdit from "../assets/shopping-app-pic-edit-2.webp";
-import MovieNightPic from "../assets/movie-night-pic.webp";
-import MovieNightPicEdit from "../assets/movie-night-pic-edit.webp";
+import MovieNightPic from "../assets/movie-night-pic-edit-2.webp";
+// import MovieNightPicEdit from "../assets/movie-night-pic-edit.webp";
 import NetflixClonePic from "../assets/netflix-clone-pic.webp";
 import HangmanGamePic from "../assets/hangman-game-pic.webp";
+import HangmanGamePic2 from "../assets/hangman-game-pic-edit-final.webp";
 import PetFinderPic from "../assets/pet-finder-pic.webp";
+import PetFinderPic2 from "../assets/pet-finder-pic-2-edit.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BiLinkExternal } from "react-icons/bi";
@@ -57,7 +59,7 @@ function ProjectsSection() {
                 </ul>
               </div>
 
-              <div className="mt-5 flex justify-center">
+              <div className="mt-5 flex justify-center lg:justify-start">
                 <a
                   className="btn mr-5"
                   href="https://shopping-app-react-two.vercel.app/"
@@ -119,7 +121,7 @@ function ProjectsSection() {
                 </ul>
               </div>
 
-              <div className="mt-5 flex justify-center">
+              <div className="mt-5 flex justify-center lg:justify-start">
                 <a
                   className="btn mr-5"
                   href="https://movielist-app-v2.vercel.app/"
@@ -155,8 +157,8 @@ function ProjectsSection() {
           >
             <div className="">
               <img
-                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-auto lg:w-full  lg:ml-16 lg:mt-5"
-                src={HangmanGamePic}
+                className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-auto lg:w-full lg:mt-5"
+                src={HangmanGamePic2}
                 alt="Hangman Game Picture"
               />
             </div>
@@ -180,7 +182,7 @@ function ProjectsSection() {
                 </ul>
               </div>
 
-              <div className="mt-5 flex justify-center">
+              <div className="mt-5 flex justify-center lg:justify-start">
                 <a
                   className="btn mr-5"
                   href="https://hangman-game-rho-mocha.vercel.app/"
@@ -217,7 +219,7 @@ function ProjectsSection() {
             <div className="">
               <img
                 className="h-[200px] w-[350px] rounded-xl drop-shadow-lg lg:h-auto lg:w-full lg:mt-5"
-                src={PetFinderPic}
+                src={PetFinderPic2}
                 alt="Netflix Clone Image"
               />
             </div>
@@ -240,7 +242,7 @@ function ProjectsSection() {
                 </ul>
               </div>
 
-              <div className="mt-5 flex justify-center">
+              <div className="mt-5 flex justify-center lg:justify-start">
                 <a
                   className="btn mr-5"
                   href="https://pet-finder-app-one.vercel.app/"

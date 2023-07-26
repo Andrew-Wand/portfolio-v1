@@ -35,6 +35,8 @@ function NavBar() {
               <a
                 href="https://drive.google.com/file/d/1xCKV4fjW0RUl2Y9fazhpRh7wSLkbylzF/view?usp=sharing"
                 className="nav-link text-2xl text-white"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Resume
               </a>
